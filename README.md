@@ -1,6 +1,5 @@
 # IBM-Project-41730-1660644464
-
-<b style="text-align:right">Plasma Donor Application<b>
+ <p style="text-align:right">This is some text in a paragraph.</p> 
 <center>
     <img src="https://as2.ftcdn.net/v2/jpg/03/26/06/75/1000_F_326067522_ptXvtEaaeXWHVU7pa9DYdrVTt8j17Fdn.jpg" alt="plasma"></center>
 #PLASMA DONOR APPLICATION
