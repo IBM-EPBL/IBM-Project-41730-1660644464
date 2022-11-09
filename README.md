@@ -1,7 +1,7 @@
 # IBM-Project-41730-1660644464
 <h1>PLASMA DONOR APPLICATION</h1>
 <center>
-    <img style=width:1000px src=["https://repository-images.githubusercontent.com/275387860/eb497480-0642-11eb-9aa3-ffdbb0e84246"] alt="plasma"></center>
+    <img style=width:1000px src="https://repository-images.githubusercontent.com/275387860/eb497480-0642-11eb-9aa3-ffdbb0e84246" alt="plasma"></center>
 #PLASMA DONOR APPLICATION
 
 TECHNOLOGY : Cloud Application 
