@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+
+  <script type="text/javascript">
+    var m={{ messages|safe }};
+    for(var i=0;i<m.length;i++)
+    {
+      alert(m[i]);
+    }
+  </script>
+
+  {% endif %}
+{% endwith %}
+
+	
+	<div class="container-fluid"> <!-- Header content -->
+		<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <div>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="{{ url_for('view2') }}">Active Donors</a></li>
+         <li><a href="{{ url_for('view') }}">Inactive Donors</a></li>
+         <li><a href="{{ url_for('request1') }}">Request</a></li>
+         <li><a href="{{ url_for('donate') }}">Donate</a></li>
+         <li><a href="{{ url_for('profile') }}">Profile</a></li>
+         <li><a href="{{url_for('login')}}"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+    </ul>
+    </div>
+
+</div>
+    </nav>
+</div>
+<h3 class="display" style="text-align:center"> YOUR LITTLE EFFORT CAN  <span style="color:rgb(232, 53, 4);"></span> GIVE OTHERS SECOND CHANCE TO LIVE LIFE<span style="gb(232, 53, 4);">GIVING MORE</span>. THANKS FOR YOUR DONATION.!!</h3>
+  <center><img src="https://www.gbs-cidp.org/wp-content/uploads/2022/07/Copy-of-Be-a-HeroSave-a-Life-Social-Posts.png" width="500"></center>
+  
+{% endblock %}
