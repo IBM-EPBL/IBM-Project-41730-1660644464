@@ -1,4 +1,4 @@
-# Project Development Phase- Sprint-3
+# Project Development Phase- Sprint-2
 
 HOME PAGE + ABOUT PAGE +LOGIN FORM + REGISTRATION FORM
 
